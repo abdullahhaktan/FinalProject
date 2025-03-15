@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj": {}
+    "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\abdullahhaktan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullahhaktan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -93,6 +93,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -102,25 +116,27 @@
         }
       }
     },
-    "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj": {
+    "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj",
+        "projectUniqueName": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj",
         "projectName": "Core_Proje",
-        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj",
-        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\Core_Proje\\obj\\",
+        "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\Core_Proje\\Core_Proje.csproj",
+        "packagesPath": "C:\\Users\\abdullahhaktan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\Core_Proje\\obj\\",
         "projectStyle": "PackageReference",
+        "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullahhaktan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net5.0",
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -130,14 +146,28 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          },
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -158,41 +188,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[10.3.6, )"
-            },
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.12, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.17, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Microsoft.SqlServer.Server": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -206,6 +218,85 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        },
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.SqlServer.Server": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -218,20 +309,20 @@
         }
       }
     },
-    "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\abdullahhaktan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullahhaktan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -246,8 +337,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -308,6 +399,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -317,20 +422,20 @@
         }
       }
     },
-    "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah\\source\\repos\\Asp.net core Proje\\EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\abdullahhaktan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdullahhaktan\\source\\repos\\Asp.net core Proje\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdullahhaktan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -403,6 +508,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

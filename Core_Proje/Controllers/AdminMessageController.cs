@@ -20,6 +20,7 @@ namespace Core_Proje.Controllers
             var values = writerMessageManager.GetListReceiverMessage(p);
             return View(values);
         }
+
         public IActionResult SenderMessageList()
         {
             string p;
@@ -50,7 +51,8 @@ namespace Core_Proje.Controllers
             p.SenderName = "Admin";
             p.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
             Context c = new Context();
-            var usernamesurname = c.Users.Where(x => x.Email == p.Receiver).Select(y => y.Name + " " + y.Surname).FirstOrDefault();
+            var usernamesurname = c.Users.Where(u => u.Email == p.Receiver).Select(u => u.Name + " " + u.Surname).FirstOrDefault();
+
             p.ReceiverName = usernamesurname;
             writerMessageManager.TAdd(p);
             return RedirectToAction("SenderMessageList");

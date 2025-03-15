@@ -13,7 +13,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-U7A1D87\\SQLEXPRESS;database=NetCoreProje;integrated security=true");
+            optionsBuilder.UseSqlServer("server=Abdullah;database=CoreProjeDB;integrated security=true");
         }
 
         public DbSet<About> Abouts { get; set; }
